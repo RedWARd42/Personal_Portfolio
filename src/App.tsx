@@ -1,4 +1,4 @@
-import '@picocss/pico'
+import '@picocss/pico/css/pico.min.css'
 import './App.css'
 
 import Home from './pages/Home'
