@@ -14,7 +14,7 @@ function Home({ name, typedWords }: HomeProps) {
                         <h1>I'm {name}</h1>
                 
                     <div className="intro">
-                        <h2>I am a <ReactTyped 
+                        <h2><ReactTyped 
                                 strings={typedWords}
                                 typeSpeed={125}
                                 loop

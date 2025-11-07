@@ -335,3 +335,7 @@ button:hover {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
+
+.experience-content {
+  padding: 0 1em;
+}

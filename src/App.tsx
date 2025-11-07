@@ -154,7 +154,7 @@ function App() {
       <Home name={firstName} typedWords={typedWords}/>
       <About experiences={experienceInfo} programmingLanguages={programmingLanguages} toolsAndFrameworks={toolsAndFrameworks}/>
       <Projects projects={projects}/>
-      <Contact github={githubLink} linkedIn={linkedInLink} email={email}/>
+      {/*<Contact github={githubLink} linkedIn={linkedInLink} email={email}/>*/}
       <Footer firstName={firstName} lastName={lastName} github={githubLink} linkedIn={linkedInLink} email={email}/>
     </>
   )

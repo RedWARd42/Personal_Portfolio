@@ -22,7 +22,7 @@ function About({ experiences, programmingLanguages, toolsAndFrameworks}: AboutPr
             <div className="about-section">
                 <div className="experience">
                     <h2>Experience</h2>
-                    <div className="overflow-auto">
+                    <div className="experience-content">
                         {
                             experiences.map((experience, index) => (
                                 <Role 
